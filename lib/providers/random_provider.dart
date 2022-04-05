@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 
 class RandomProvider extends ChangeNotifier {
   List<int> randoms =
-      List.generate(6, (index) => Random().nextInt(50)).toList();
+      List.generate(9, (index) => Random().nextInt(50)).toList();
   bool isVisible = false;
 
   void showRandoms() {

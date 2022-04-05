@@ -6,7 +6,7 @@ class MyRouter {
     var args = settings.arguments;
     switch (settings.name) {
       case '/':
-        return MaterialPageRoute(builder: (context) => HomeScreen());
+        return MaterialPageRoute(builder: (context) => HomePage());
     }
   }
 }
