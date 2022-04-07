@@ -6,7 +6,7 @@ import 'package:bloc/bloc.dart';
 class ShuffleCubit extends Cubit<ShuffleGameState> {
   ShuffleCubit() : super(InitialShuffleState());
 
-  int x = Random().
+  int x = Random().nextInt(10);
   int y = Random().nextInt(10);
 
   randomize() {
